@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\HHTRQDChonTruong\\HHTRQDChonTuong\\HHTRQDChonTuong.csproj": {}
+    "D:\\C#\\HHTRQD\\HHTRQDChonTuong\\HHTRQDChonTuong.csproj": {}
   },
   "projects": {
-    "D:\\C#\\HHTRQDChonTruong\\HHTRQDChonTuong\\HHTRQDChonTuong.csproj": {
+    "D:\\C#\\HHTRQD\\HHTRQDChonTuong\\HHTRQDChonTuong.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\HHTRQDChonTruong\\HHTRQDChonTuong\\HHTRQDChonTuong.csproj",
+        "projectUniqueName": "D:\\C#\\HHTRQD\\HHTRQDChonTuong\\HHTRQDChonTuong.csproj",
         "projectName": "HHTRQDChonTuong",
-        "projectPath": "D:\\C#\\HHTRQDChonTruong\\HHTRQDChonTuong\\HHTRQDChonTuong.csproj",
+        "projectPath": "D:\\C#\\HHTRQD\\HHTRQDChonTuong\\HHTRQDChonTuong.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\HHTRQDChonTruong\\HHTRQDChonTuong\\obj\\",
+        "outputPath": "D:\\C#\\HHTRQD\\HHTRQDChonTuong\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
