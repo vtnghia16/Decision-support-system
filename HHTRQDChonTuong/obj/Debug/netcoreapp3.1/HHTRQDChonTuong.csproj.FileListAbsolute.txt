@@ -116,3 +116,7 @@ D:\C#\HHTRQD\HHTRQDChonTuong\obj\Debug\netcoreapp3.1\HHTRQDChonTuong.csproj.Copy
 D:\C#\HHTRQD\HHTRQDChonTuong\obj\Debug\netcoreapp3.1\HHTRQDChonTuong.dll
 D:\C#\HHTRQD\HHTRQDChonTuong\obj\Debug\netcoreapp3.1\HHTRQDChonTuong.pdb
 D:\C#\HHTRQD\HHTRQDChonTuong\obj\Debug\netcoreapp3.1\HHTRQDChonTuong.genruntimeconfig.cache
+D:\C#\HHTRQD\HHTRQDChonTuong\bin\Debug\netcoreapp3.1\HHTRQDChonTuong.dll.config
+D:\C#\HHTRQD\HHTRQDChonTuong\bin\Debug\netcoreapp3.1\Interop.Microsoft.Office.Interop.Excel.dll
+D:\C#\HHTRQD\HHTRQDChonTuong\obj\Debug\netcoreapp3.1\Interop.Microsoft.Office.Interop.Excel.dll
+D:\C#\HHTRQD\HHTRQDChonTuong\obj\Debug\netcoreapp3.1\HHTRQDChonTuong.csproj.ResolveComReference.cache

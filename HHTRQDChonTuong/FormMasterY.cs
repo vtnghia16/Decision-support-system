@@ -11,6 +11,7 @@ using System.Text;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
+
 namespace HHTRQDChonTuong
 {
     public partial class FormMasterY : Form
@@ -75,8 +76,8 @@ namespace HHTRQDChonTuong
                 double[] vectorHDXH = loadHDXH();
                 double[,] resultMatrix = GopVectorsThanhMaTran(vectorPAHP, vectorPATLVL, vectorPCSVL, vectorHDXH);
                 double[] ketqua = MultiplyMatrixByVector(resultMatrix, vectorTS);
-                DataTable matranketqua = CreateMatrixWithRank(vectorTenTruong,ketqua);
-                dataGridView2.DataSource = matranketqua;
+                System.Data.DataTable matranketqua = CreateMatrixWithRank(vectorTenTruong,ketqua);
+                dataGridViewKQ.DataSource = matranketqua;
                 DisplayColumnSumsOnDataGridView(ketqua,dataGridView3);
 
                 // Sử dụng kết quả tính được
@@ -85,12 +86,12 @@ namespace HHTRQDChonTuong
 
 
         }
-        private DataTable CreateMatrixWithRank(string[] vectorTenTruong, double[] ketqua)
+        private System.Data.DataTable CreateMatrixWithRank(string[] vectorTenTruong, double[] ketqua)
         {
             int length = vectorTenTruong.Length;
 
             // Create DataTable with columns
-            DataTable matrixTable = new DataTable();
+            System.Data.DataTable matrixTable = new System.Data.DataTable();
             matrixTable.Columns.Add("TenTruong", typeof(string));
             matrixTable.Columns.Add("Ketqua", typeof(double));
             matrixTable.Columns.Add("Rank", typeof(int));
@@ -104,7 +105,7 @@ namespace HHTRQDChonTuong
             // Sort the DataTable based on the Ketqua column in descending order
             DataView sortedView = matrixTable.DefaultView;
             sortedView.Sort = "Ketqua DESC";
-            DataTable sortedMatrixTable = sortedView.ToTable();
+            System.Data.DataTable sortedMatrixTable = sortedView.ToTable();
 
             // Update the Rank column based on the sorted order
             for (int i = 0; i < length; i++)
@@ -1003,7 +1004,7 @@ namespace HHTRQDChonTuong
             double[] ketqua = MultiplyMatrixByVector(resultMatrix, vectorTS);
             // Chuyển danh sách tên trường thành một vector
             string[] vectorTenTruong = danhSachTenTruong.ToArray();
-            DataTable matranketqua = CreateMatrixWithRank(vectorTenTruong, ketqua);
+            System.Data.DataTable matranketqua = CreateMatrixWithRank(vectorTenTruong, ketqua);
             string macAddress = "";
             foreach (NetworkInterface nic in NetworkInterface.GetAllNetworkInterfaces())
             {
@@ -1044,13 +1045,15 @@ namespace HHTRQDChonTuong
 
             // Show a message indicating the successful save
             MessageBox.Show("Data saved to the database.");
-            FormLoc mainForm = Application.OpenForms.OfType<FormLoc>().FirstOrDefault();
+            FormLoc mainForm = System.Windows.Forms.Application.OpenForms.OfType<FormLoc>().FirstOrDefault();
             if (mainForm != null)
             {
                 mainForm.loadLSKQ();
                 // Gọi lại hàm load lịch sử form chính
             }
         }
+
+
 
     }
 }
