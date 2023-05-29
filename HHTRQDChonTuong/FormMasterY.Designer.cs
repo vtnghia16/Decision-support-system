@@ -82,7 +82,7 @@
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.tableTrongSoTieuChi.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.tableTrongSoTieuChi.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.tableTrongSoTieuChi.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.tableTrongSoTieuChi.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCellsExceptHeaders;
             this.tableTrongSoTieuChi.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
@@ -101,8 +101,7 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.tableTrongSoTieuChi.DefaultCellStyle = dataGridViewCellStyle3;
-            this.tableTrongSoTieuChi.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.tableTrongSoTieuChi.Location = new System.Drawing.Point(0, 52);
+            this.tableTrongSoTieuChi.Location = new System.Drawing.Point(12, 52);
             this.tableTrongSoTieuChi.Name = "tableTrongSoTieuChi";
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
@@ -116,7 +115,7 @@
             dataGridViewCellStyle5.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.tableTrongSoTieuChi.RowsDefaultCellStyle = dataGridViewCellStyle5;
             this.tableTrongSoTieuChi.RowTemplate.Height = 29;
-            this.tableTrongSoTieuChi.Size = new System.Drawing.Size(630, 381);
+            this.tableTrongSoTieuChi.Size = new System.Drawing.Size(618, 381);
             this.tableTrongSoTieuChi.TabIndex = 0;
             this.tableTrongSoTieuChi.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tableTrongSoTieuChi_CellContentClick);
             this.tableTrongSoTieuChi.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.tableTrongSoTieuChi_CellValueChanged);
@@ -160,7 +159,6 @@
             dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle8;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.dataGridView1.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
             this.dataGridView1.Location = new System.Drawing.Point(0, 52);
             this.dataGridView1.Name = "dataGridView1";
@@ -177,7 +175,7 @@
             dataGridViewCellStyle10.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle10;
             this.dataGridView1.RowTemplate.Height = 29;
-            this.dataGridView1.Size = new System.Drawing.Size(630, 381);
+            this.dataGridView1.Size = new System.Drawing.Size(618, 381);
             this.dataGridView1.TabIndex = 2;
             // 
             // dataGridViewHP
@@ -244,8 +242,7 @@
             dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridView2.DefaultCellStyle = dataGridViewCellStyle13;
-            this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView2.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView2.Location = new System.Drawing.Point(12, 0);
             this.dataGridView2.Name = "dataGridView2";
             dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle14.BackColor = System.Drawing.SystemColors.Control;
@@ -260,7 +257,7 @@
             dataGridViewCellStyle15.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dataGridView2.RowsDefaultCellStyle = dataGridViewCellStyle15;
             this.dataGridView2.RowTemplate.Height = 29;
-            this.dataGridView2.Size = new System.Drawing.Size(1424, 375);
+            this.dataGridView2.Size = new System.Drawing.Size(1400, 375);
             this.dataGridView2.TabIndex = 7;
             // 
             // dataGridView3
@@ -293,7 +290,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(3, 18);
+            this.label1.Location = new System.Drawing.Point(12, 18);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(244, 23);
             this.label1.TabIndex = 10;
@@ -303,7 +300,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(15, 18);
+            this.label2.Location = new System.Drawing.Point(3, 18);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(213, 23);
             this.label2.TabIndex = 11;
