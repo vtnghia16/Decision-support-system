@@ -63,9 +63,51 @@ namespace HHTRQDChonTuong.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _61046361f465e904b0c450c4_Admit_NY_Blog_Featured_Images_2 {
+            get {
+                object obj = ResourceManager.GetObject("61046361f465e904b0c450c4_Admit-NY-Blog-Featured-Images-2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _635c47e8e19fbdbaa0f9878a_Admit_NY_Blog_Featured_Images__7_ {
+            get {
+                object obj = ResourceManager.GetObject("635c47e8e19fbdbaa0f9878a_Admit NY Blog Featured Images (7)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Capture {
+            get {
+                object obj = ResourceManager.GetObject("Capture", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap search {
             get {
                 object obj = ResourceManager.GetObject("search", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap searching_for_good_schools_concept_icon_choosing_educational_institutions_location_idea_thin_line_illustration_finding_school_college_selection_isolated_outline_drawing_editable_stroke_vector {
+            get {
+                object obj = ResourceManager.GetObject("searching-for-good-schools-concept-icon-choosing-educational-institutions-locatio" +
+                        "n-idea-thin-line-illustration-finding-school-college-selection-isolated-outline-" +
+                        "drawing-editable-stroke-vector", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

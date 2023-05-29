@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace HHTRQDChonTuong
 {
-    public partial class Form1 : Form
+    public partial class FormStart : Form
     {
-        public Form1()
+        public FormStart()
         {
             InitializeComponent();
         }
@@ -22,5 +22,12 @@ namespace HHTRQDChonTuong
 
         }
 
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            FormLoc f = new FormLoc();
+            this.Hide();
+            f.ShowDialog();
+            
+        }
     }
 }

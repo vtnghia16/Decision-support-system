@@ -101,7 +101,6 @@ D:\C#\HHTRQD\HHTRQDChonTuong\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni
 D:\C#\HHTRQD\HHTRQDChonTuong\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\C#\HHTRQD\HHTRQDChonTuong\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\C#\HHTRQD\HHTRQDChonTuong\obj\Debug\netcoreapp3.1\HHTRQDChonTuong.csproj.AssemblyReference.cache
-D:\C#\HHTRQD\HHTRQDChonTuong\obj\Debug\netcoreapp3.1\HHTRQDChonTuong.Form1.resources
 D:\C#\HHTRQD\HHTRQDChonTuong\obj\Debug\netcoreapp3.1\HHTRQDChonTuong.FormAHP.resources
 D:\C#\HHTRQD\HHTRQDChonTuong\obj\Debug\netcoreapp3.1\HHTRQDChonTuong.FormAHPPA.resources
 D:\C#\HHTRQD\HHTRQDChonTuong\obj\Debug\netcoreapp3.1\HHTRQDChonTuong.FormLoc.resources
@@ -120,3 +119,4 @@ D:\C#\HHTRQD\HHTRQDChonTuong\bin\Debug\netcoreapp3.1\HHTRQDChonTuong.dll.config
 D:\C#\HHTRQD\HHTRQDChonTuong\bin\Debug\netcoreapp3.1\Interop.Microsoft.Office.Interop.Excel.dll
 D:\C#\HHTRQD\HHTRQDChonTuong\obj\Debug\netcoreapp3.1\Interop.Microsoft.Office.Interop.Excel.dll
 D:\C#\HHTRQD\HHTRQDChonTuong\obj\Debug\netcoreapp3.1\HHTRQDChonTuong.csproj.ResolveComReference.cache
+D:\C#\HHTRQD\HHTRQDChonTuong\obj\Debug\netcoreapp3.1\HHTRQDChonTuong.FormStart.resources
