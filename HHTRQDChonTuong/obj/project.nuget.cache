@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Afj+indxrf2aHFMRe8MYCoVzIO+BMFQzqcM+G6+6zTv4qdhCCq22SkDNR+gi2OifmOTzZxiqOpoMprNkvLfwLw==",
+  "dgSpecHash": "pB2ZEL5W0leaUsCgnIUq0rQNhvSAvAEJKHniuPZVXt87OpXry1Tf+j8/SfZ5MAMM9YajjgWWAH8RjLMMhs8bPA==",
   "success": true,
-  "projectFilePath": "D:\\C#\\HHTRQD\\HHTRQDChonTuong\\HHTRQDChonTuong.csproj",
+  "projectFilePath": "D:\\C#\\SourceCode\\HHTRQDChonTuong\\HHTRQDChonTuong.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",

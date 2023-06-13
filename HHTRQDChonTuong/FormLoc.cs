@@ -298,15 +298,13 @@ namespace HHTRQDChonTuong
             }
 
             obj.ActiveWorkbook.SaveCopyAs(duongDan + tenTap + ".xlsx");
-            MessageBox.Show("Xuát excel thành công");
-
-            obj.Visible = true;
             obj.ActiveWorkbook.Saved = true;
         }
 
         private void btnExport_Click(object sender, EventArgs e)
         {
             export2Excel(dataGridViewLSKQ, @"D:\", "xuatfileExcel");
+            MessageBox.Show("Xuát excel thành công");
         }
     }
 }

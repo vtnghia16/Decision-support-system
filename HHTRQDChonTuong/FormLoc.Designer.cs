@@ -38,6 +38,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dataGridViewDSTr = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
@@ -56,7 +57,6 @@
             this.numericUpDownDiem2 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.checkedListBoxNganh = new System.Windows.Forms.CheckedListBox();
-            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewDSTr)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -120,6 +120,16 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1424, 440);
             this.panel1.TabIndex = 2;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label7.Location = new System.Drawing.Point(12, 15);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(396, 23);
+            this.label7.TabIndex = 13;
+            this.label7.Text = "Danh sách tất cả các trường có trong hệ thống";
             // 
             // panel2
             // 
@@ -357,20 +367,11 @@
             this.checkedListBoxNganh.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.checkedListBoxNganh.FormattingEnabled = true;
             this.checkedListBoxNganh.Location = new System.Drawing.Point(12, 47);
+            this.checkedListBoxNganh.Margin = new System.Windows.Forms.Padding(5, 3, 3, 3);
             this.checkedListBoxNganh.Name = "checkedListBoxNganh";
             this.checkedListBoxNganh.Size = new System.Drawing.Size(555, 154);
             this.checkedListBoxNganh.TabIndex = 0;
             this.checkedListBoxNganh.SelectedIndexChanged += new System.EventHandler(this.checkedListBoxNganh_SelectedIndexChanged);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(12, 15);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(396, 23);
-            this.label7.TabIndex = 13;
-            this.label7.Text = "Danh sách tất cả các trường có trong hệ thống";
             // 
             // FormLoc
             // 

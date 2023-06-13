@@ -169,7 +169,6 @@ namespace HHTRQDChonTuong
             return result;
         }
 
-
        
         private double ComputeConsistencyIndex(double[,] matrix)
         {
@@ -872,6 +871,7 @@ namespace HHTRQDChonTuong
 
             return vector;
         }
+
         private double[] loadHDXH()
         {
             HeHoTroRaQuyetDinhContext context = new HeHoTroRaQuyetDinhContext();
@@ -995,6 +995,7 @@ namespace HHTRQDChonTuong
             double lamda = CalculateAverage(vectorT);
             double CI = CalculateCI(lamda, n);
             double CR = CalculateCR(CI);
+
             List<string> danhSachTenTruong = LayDanhSachTenTruong();
             double[] vectorPAHP = loadPAHP();
             double[] vectorPATLVL = loadPATLVL();
@@ -1053,7 +1054,10 @@ namespace HHTRQDChonTuong
             }
         }
 
-
-
+        private void btnAHPPA_Click(object sender, EventArgs e)
+        {
+            FormAHPPA f = new FormAHPPA();
+            f.ShowDialog();
+        }
     }
 }

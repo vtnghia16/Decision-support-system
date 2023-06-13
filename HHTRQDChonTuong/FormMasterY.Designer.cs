@@ -61,6 +61,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.btnAHPPA = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.tableTrongSoTieuChi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewHP)).BeginInit();
@@ -353,6 +354,7 @@
             // 
             // panel4
             // 
+            this.panel4.Controls.Add(this.btnAHPPA);
             this.panel4.Controls.Add(this.button1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel4.Location = new System.Drawing.Point(0, 855);
@@ -368,6 +370,21 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(1424, 375);
             this.panel5.TabIndex = 15;
+            // 
+            // btnAHPPA
+            // 
+            this.btnAHPPA.BackColor = System.Drawing.Color.Salmon;
+            this.btnAHPPA.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAHPPA.FlatAppearance.BorderSize = 0;
+            this.btnAHPPA.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnAHPPA.ForeColor = System.Drawing.Color.White;
+            this.btnAHPPA.Location = new System.Drawing.Point(224, 16);
+            this.btnAHPPA.Name = "btnAHPPA";
+            this.btnAHPPA.Size = new System.Drawing.Size(141, 55);
+            this.btnAHPPA.TabIndex = 10;
+            this.btnAHPPA.Text = "AHPPA";
+            this.btnAHPPA.UseVisualStyleBackColor = false;
+            this.btnAHPPA.Click += new System.EventHandler(this.btnAHPPA_Click);
             // 
             // FormMasterY
             // 
@@ -423,5 +440,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Button btnAHPPA;
     }
 }
